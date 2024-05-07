@@ -1,26 +1,22 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: whoami
-  tags:
-    - elastic stack
-    - data
-    - kubernetes
-    - AWS
+  name: Cap Backstage
   description: |
-    My name is Bora, living in Utrecht with my hubby, working as a consultant at Capgemini.
+    Backstage is an open-source developer portal that puts the developer experience first.
   links:
-    - title: My Github
-      url: https://github.com/yarabora/backstage/blob/main/backstage-info.yaml
+    - title: Gitlab
+      url: https://csd.pl.s2-eu.capgemini.com/gitlab/
     - title: Talent
       url: https://talent.capgemini.com/nl
-
+    - title: PersonalGithub
+      url: https://github.com/yarabora/backstage
 
   annotations:
     github.com/project-slug: backstage/backstage
     backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://backstage.io
 spec:
-  type: service
+  type: library
   owner: Bora
   lifecycle: experimental
