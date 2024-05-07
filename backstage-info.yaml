@@ -6,7 +6,7 @@ metadata:
     - elastic
     - data
     - kubernetes
-    - AWS
+    - aws
   description: |
     My name is Bora, living in Utrecht with my hubby, working as a consultant at Capgemini.
   links:
