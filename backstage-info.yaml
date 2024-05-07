@@ -6,14 +6,16 @@ metadata:
     - elastic-stack
     - data
     - kubernetes
-    - AWS
+    - aws
   description: |
-    My name is Bora, living in Utrecht with my hubby, working as a consultant at Capgemini.
+    My name is Bora, living in Utrecht with my husband, working as a consultant at Capgemini.
   links:
     - title: My Github
       url: https://github.com/yarabora/backstage/blob/main/backstage-info.yaml
-    - title: Talent
-      url: https://talent.capgemini.com/nl
+    - title: Instagram
+      url: https://www.instagram.com/yara_bora/
+    - title: Linkedin
+      url: https://www.linkedin.com/in/bora-min-64639a230/
 
 
   annotations:
