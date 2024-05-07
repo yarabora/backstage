@@ -34,7 +34,6 @@ spec:
   type: person
   owner: Bora
   lifecycle: experimental
-<<<<<<< HEAD
   team:
     - name: Evenwel, Willem
       role: Backstage initiavite PM
@@ -42,5 +41,5 @@ spec:
     - name: Rooyen, Juan van
       role: Counsellor
       email: juan.van.rooyen@capgemini.com
-=======
->>>>>>> 0d8a73b784bcab2a59dcb0cdc0700462abd56277
+
+
