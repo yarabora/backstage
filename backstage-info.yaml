@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: whoami
   tags:
-    - elastic-stack
+    - elastic
     - data
     - kubernetes
     - AWS
