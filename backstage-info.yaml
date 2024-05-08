@@ -27,12 +27,13 @@ spec:
   type: person
   owner: Bora
   lifecycle: experimental
-  team:
-    - name: Evenwel, Willem
-      role: Backstage initiavite PM
-      email: willem.evenwel@capgemini.com
-    - name: Rooyen, Juan van
-      role: Counsellor
-      email: juan.van.rooyen@capgemini.com
+
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: guests
+spec:
+  type: team
+  children: []
 
 
