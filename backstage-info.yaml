@@ -27,13 +27,28 @@ spec:
   type: person
   owner: Bora
   lifecycle: experimental
-
+  providesApis: [example-grpc-api]
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-api
 apiVersion: backstage.io/v1alpha1
-kind: Group
+kind: API
 metadata:
-  name: guests
+  name: example-grpc-api
 spec:
-  type: team
-  children: []
+  type: grpc
+  lifecycle: experimental
+  owner: guests
+  system: examples
+  definition: |
+    syntax = "proto3";
+
+    service Exampler {
+      rpc Example (ExampleMessage) returns (ExampleMessage) {};
+    }
+
+    message ExampleMessage {
+      string example = 1;
+    };
+
 
 
