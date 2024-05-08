@@ -22,14 +22,10 @@ metadata:
     github.com/project-slug: backstage/backstage
     backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://backstage.io
-    relatedComponents:
+    relatedComponents: |
       - name: AnotherComponent
         type: service
         description: Another component related to this one
-    apis:
-      - name: REST API
-        type: OpenAPI
-        specification: https://api.example.com/openapi.yaml
 spec:
   type: person
   owner: Bora
