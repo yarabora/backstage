@@ -28,6 +28,3 @@ spec:
   owner: Bora
   lifecycle: experimental
   providesApis: [example-grpc-api]
-
-
-
