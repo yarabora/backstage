@@ -19,10 +19,10 @@ metadata:
 
   annotations:
     github.com/project-slug: backstage/backstage
-    backstage.io/techdocs-ref: dir:./
+    backstage.io/techdocs-ref: https://github.com/yarabora/backstage/blob/main/README.md
     lighthouse.com/website-url: https://backstage.io
     mycompany.com/docs-path: https://github.com/yarabora/backstage/blob/main/
-
+    
 spec:
   type: person
   owner: Bora
