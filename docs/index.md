@@ -86,8 +86,7 @@ but pip is not included by default. So, you’ll need to install pip separately.
 2. Open Terminal and navigate to the directory where you downloaded the **`get-pip.py`** script.
 3. Run the following command to install pip:
     
-    ```arduino
-    arduinoCopy code
+    ```
     python get-pip.py
     pip3 --version
     ```
