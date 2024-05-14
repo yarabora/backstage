@@ -2,9 +2,6 @@
 
 This is a basic example of documentation.# Backstage Onboarding
 
-Status: In progress
-Project: Backstage initiative (https://www.notion.so/Backstage-initiative-4f68f9e400b144799de9949b33eed1a0?pvs=21)
-
 ## Description
 
 - This is the onboarding document for the Backstage project.
