@@ -113,7 +113,7 @@ This may take a few minutes to fully install everything.
 
 This will create a folder with that name, which you can open with your IDE of choice. 
 
-![Untitled](Backstage%20Onboarding%20c0a3bb41d1694fc7b6a15c9504a40d93/Untitled.png)
+![Untitled](Image/Untitled.png)
 
 To run the application enter the below command in the terminal:
 
