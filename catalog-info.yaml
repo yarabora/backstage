@@ -1,26 +1,24 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: whoami
+  name: backstage-initiative
   tags:
-    - elastic-stack
-    - data
+    - observability
+    - react
     - kubernetes
     - aws
   description: |
-    My name is Bora, living in Utrecht with my husband, working as a consultant at Capgemini.
+    This project aims to containerize the Backstage environment to facilitate deployment through code.
   links:
-    - title: My Github
+    - title: GitHub Repository
       url: https://github.com/yarabora/backstage/blob/main/backstage-info.yaml
-    - title: Instagram
-      url: https://www.instagram.com/yara_bora/
     - title: Linkedin
       url: https://www.linkedin.com/in/bora-min-64639a230/
 
   annotations:
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: person
+  type: service
   owner: Bora
   lifecycle: experimental
   providesApis: [example-grpc-api]
