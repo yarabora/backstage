@@ -3,8 +3,8 @@ kind: Component
 metadata:
   name: backstage-initiative
   tags:
-    - elastic-stack
-    - data
+    - observability
+    - react
     - kubernetes
     - aws
   description: |
@@ -12,29 +12,13 @@ metadata:
   links:
     - title: GitHub Repository
       url: https://github.com/yarabora/backstage/blob/main/backstage-info.yaml
-    - title: Documentation
-      url: https://your-documentation-url.com
-    - title: CI/CD Dashboard
-      url: https://your-cicd-dashboard-url.com
-    - title: LinkedIn Profile
+    - title: Linkedin
       url: https://www.linkedin.com/in/bora-min-64639a230/
-    - title: Twitter Profile
-      url: https://twitter.com/your-twitter-handle
+
   annotations:
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
-  owner: group:default/bora
+  owner: Bora
   lifecycle: experimental
   providesApis: [example-grpc-api]
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  namespace: default
-  name: bora
-  description: The team responsible for the Backstage initiative.
-spec:
-  type: team
-  children: []
-  parent: default
