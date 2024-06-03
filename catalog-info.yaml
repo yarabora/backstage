@@ -1,45 +1,33 @@
+# catalog-info.yaml
+
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: example-service
+  description: This is an example service component.
   tags:
-    - dora-metrics
     - example
-    - aws
-  description: |
-    This project aims to containerize the Backstage environment to facilitate deployment through code.
-  links:
-    - title: GitHub Repository
-      url: https://github.com/yarabora/backstage/blob/main/backstage-info.yaml
-    - title: Linkedin
-      url: https://www.linkedin.com/in/bora-min-64639a230/
-
-  annotations:
-    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
-  owner: Bora
-  lifecycle: experimental
-  providesApis: [example-grpc-api]
+  owner: user:yarabora
+  lifecycle: production
+  system: example-system
 
 ---
-
-  # User definition
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: yarabora
-  description: Bora Min is a software engineer.
+  description: Yarabora is a software engineer.
 spec:
   profile:
-    displayName: Bora Min
+    displayName: Yarabora
     email: boramin@example.com
-    picture: https://example.com/bora-min.jpg
+    picture: https://example.com/yarabora.jpg
   memberOf:
     - team-example
 
 ---
-# Team definition
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
