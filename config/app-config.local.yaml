@@ -1,0 +1,19 @@
+# Backstage override configuration for your local development environment
+# Frontend
+app:
+  # Listen for connections from outside of the VM
+  listen:
+    host: 0.0.0.0
+# Backend
+backend:
+  # Listen for connections from outside of the VM
+  listen:
+    host: 0.0.0.0
+  # Connect to PostgreSQL database
+  # database:
+    # client: pg
+    # connection:
+      # host: localhost
+      # port: 5432
+      # user: backstage
+      # password: backstage123

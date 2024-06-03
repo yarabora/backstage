@@ -1,11 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-initiative
+  name: example-service
   tags:
-    - observability
-    - react
-    - kubernetes
+    - dora-metrics
+    - example
     - aws
   description: |
     This project aims to containerize the Backstage environment to facilitate deployment through code.
@@ -22,3 +21,32 @@ spec:
   owner: Bora
   lifecycle: experimental
   providesApis: [example-grpc-api]
+
+
+  # User definition
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: yarabora
+  description: Bora Min is a software engineer.
+spec:
+  profile:
+    displayName: Bora Min
+    email: boramin@example.com
+    picture: https://example.com/bora-min.jpg
+  memberOf:
+    - team-example
+
+---
+# Team definition
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-example
+  description: Example team responsible for the example service.
+spec:
+  type: team
+  profile:
+    displayName: Example Team
+  members:
+    - user:yarabora
