@@ -22,6 +22,7 @@ spec:
   lifecycle: experimental
   providesApis: [example-grpc-api]
 
+---
 
   # User definition
 apiVersion: backstage.io/v1alpha1
