@@ -1,41 +1,17 @@
-# catalog-info.yaml
-
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: example-service
-  description: This is an example service component.
-  tags:
-    - example
+  name: backstage
+  description: An example of a Backstage application.
+  # Example for optional annotations
+  # annotations:
+  #   github.com/project-slug: backstage/backstage
+  #   backstage.io/techdocs-ref: dir:.
+  annotations:
+    prometheus.io/rule: node_memory_active_bytes
+    prometheus.io/alert: HighMemoryUsage
+    github.com/project-slug: yarabora/backstage 
 spec:
   type: service
-  owner: user:yarabora
-  lifecycle: production
-  system: example-system
-
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: yarabora
-  description: Yarabora is a software engineer.
-spec:
-  profile:
-    displayName: Yarabora
-    email: boramin@example.com
-    picture: https://example.com/yarabora.jpg
-  memberOf:
-    - team-example
-
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  name: team-example
-  description: Example team responsible for the example service.
-spec:
-  type: team
-  profile:
-    displayName: Example Team
-  members:
-    - user:yarabora
+  lifecycle: experimental
+  owner: yarabora
