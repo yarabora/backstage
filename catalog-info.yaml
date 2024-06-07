@@ -9,7 +9,7 @@ metadata:
   #   backstage.io/techdocs-ref: dir:.
   annotations:
     prometheus.io/rule: node_memory_active_bytes
-    prometheus.io/alert: HighMemoryUsage
+    prometheus.io/alert: all
     github.com/project-slug: yarabora/backstage 
 spec:
   type: service
