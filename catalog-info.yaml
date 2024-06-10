@@ -11,7 +11,7 @@ metadata:
     prometheus.io/rule: node_memory_active_bytes, node_cpu_seconds_total, up
     prometheus.io/alert: all
     github.com/project-slug: yarabora/backstage 
-    grafana/overview-dashboard: all
+    grafana/overview-dashboard: UDdpyzz7z
 spec:
   type: service
   lifecycle: experimental
