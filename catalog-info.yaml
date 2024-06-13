@@ -11,8 +11,8 @@ metadata:
     prometheus.io/rule: node_memory_active_bytes, node_cpu_seconds_total, up
     prometheus.io/alert: all
     github.com/project-slug: yarabora/backstage 
-    #grafana/overview-dashboard: 'http://localhost:3100/d/UDdpyzz7z/prometheus'
-    grafana/dashboard-selector: 'prometheus'
+    grafana/overview-dashboard: 'http://localhost:3100/d/UDdpyzz7z/prometheus'
+    #grafana/dashboard-selector: 'prometheus'
 
 spec:
   type: service
